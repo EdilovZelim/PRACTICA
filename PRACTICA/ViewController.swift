@@ -56,6 +56,7 @@ extension ViewController: UITableViewDataSource {
         } else {
             let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCell4", for: indexPath) as! TableViewCell4
             cell.delegate = self
+            print(cell)
             return cell
 
            
